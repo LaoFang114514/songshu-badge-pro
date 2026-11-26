@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="app/src/main/res/drawable/qidong.png" alt="松鼠兽牌 PRO" width="100" style="border-radius: 20px;" />
+<img src="app/src/main/res/drawable/qidong-rounded.png" alt="松鼠兽牌 PRO" width="100" />
 
 # 松鼠兽牌 PRO
 
