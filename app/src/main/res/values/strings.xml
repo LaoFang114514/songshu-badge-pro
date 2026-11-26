@@ -1,0 +1,257 @@
+<resources>
+    <string name="app_name">松鼠兽牌 PRO</string>
+
+    <!-- 通用 -->
+    <string name="press_again_exit">再按一次退出应用</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="tip">提示</string>
+    <string name="loading">加载中...</string>
+    <string name="back">返回</string>
+    <string name="delete">删除</string>
+    <string name="rename">重命名</string>
+    <string name="change_icon">更换图标</string>
+    <string name="save">保存</string>
+    <string name="saved">已保存</string>
+    <string name="preview">预览</string>
+    <string name="name_label">名称</string>
+    <string name="more_options">更多选项</string>
+    <string name="move_up">上移</string>
+    <string name="move_down">下移</string>
+    <string name="confirm_action">确认操作</string>
+
+    <!-- 导航 -->
+    <string name="nav_home">主页</string>
+    <string name="nav_files">文件</string>
+    <string name="nav_settings">设置</string>
+
+    <!-- 主页 -->
+    <string name="home_empty_title">还没有网页兽牌</string>
+    <string name="import_badge">导入网页兽牌</string>
+    <string name="play_badge">开始展示</string>
+    <string name="currently_in_use">当前使用中</string>
+    <string name="web_badge">网页兽牌</string>
+    <string name="pick_import_type">选择导入方式</string>
+    <string name="import_default">创建默认兽牌</string>
+    <string name="import_default_desc">生成一个空白的默认兽牌</string>
+    <string name="import_html">单个 HTML 文件</string>
+    <string name="import_html_desc">只有一个网页文件，图片等资源需要引用网络地址</string>
+    <string name="import_zip">ZIP 压缩包</string>
+    <string name="import_folder">网页文件夹</string>
+    <string name="import_zip_desc">适合包含图片、CSS、JS 的完整网页</string>
+    <string name="import_folder_desc">直接选择手机里的整个网站文件夹</string>
+    <string name="confirm_delete">确认删除</string>
+    <string name="confirm_delete_msg">确定要删除「%s」吗？其中的网页文件会一起删除，无法恢复。</string>
+    <string name="import_success">导入成功</string>
+    <string name="import_failed">导入失败：%s</string>
+    <string name="index_missing">这个兽牌缺少 index.html，无法展示</string>
+    <string name="mcp_editing">MCP服务编辑中</string>
+    <string name="mcp_editing_ing">MCP编辑中.ing</string>
+
+    <!-- 文件页 / 文件夹 -->
+    <string name="files_hint">每个文件夹就是一个兽牌。点开文件夹可以浏览文件，并使用内置编辑器修改 HTML、CSS、JS。</string>
+    <string name="files_empty">还没有导入网页兽牌</string>
+    <string name="badge_folder">兽牌文件</string>
+    <string name="folder_meta">%1$s 个文件 · %2$s</string>
+    <string name="new_file">新建文件</string>
+    <string name="import_file">导入文件</string>
+    <string name="delete_file">删除文件</string>
+    <string name="confirm_delete_file">确定要删除文件「%s」吗？</string>
+    <string name="index_readonly">index.html 是兽牌入口文件，不能删除。若想更换入口，请新建或重命名其他文件。</string>
+    <string name="file_name">文件名</string>
+    <string name="file_name_invalid">文件名不能包含 /、\ 或 ..</string>
+    <string name="file_exists">同名文件已存在</string>
+    <string name="file_added">文件已添加</string>
+    <string name="file_deleted">文件已删除</string>
+    <string name="not_text_file">这个文件类型暂不支持编辑</string>
+    <string name="file_too_large">文件超过 2 MB，暂不支持编辑</string>
+    <string name="image_preview_failed">图片预览失败，文件可能已损坏</string>
+    <string name="empty_files">这个文件夹是空的</string>
+    <string name="editor_title">编辑文件</string>
+    <string name="unsaved_title">未保存的修改</string>
+    <string name="unsaved_msg">当前文件有未保存的修改，确定放弃吗？</string>
+    <string name="discard_changes">放弃修改</string>
+    <string name="save_and_exit">保存并退出</string>
+    <string name="save_failed">保存失败：%s</string>
+    <string name="file_conflict_title">文件已发生变化</string>
+    <string name="file_conflict_msg">文件已被 MCP 或其他页面修改。当前内容尚未保存，请返回后重新打开文件，再决定是否覆盖。</string>
+    <string name="folder_rename_hint">只修改显示名称，不会改动文件夹位置</string>
+
+    <!-- 全屏展示 -->
+    <string name="exit_hint">按返回键退出展示</string>
+    <string name="battery_level">电量：%d%%</string>
+
+    <!-- 设置 -->
+    <string name="support_developer">支持开发者</string>
+    <string name="sponsor_via">欢迎通过以下渠道赞助</string>
+    <string name="ifdian">爱发电</string>
+    <string name="trial_expiring">此软件试用即将到期</string>
+    <string name="please_purchase">请购买正版</string>
+    <string name="purchase_channel_1">购买渠道一</string>
+    <string name="purchase_channel_2">购买渠道二</string>
+    <string name="basic_settings">基本设置</string>
+    <string name="theme_settings">主题设置</string>
+    <string name="backup_settings">数据备份</string>
+    <string name="tutorial_settings">使用教程</string>
+    <string name="about_settings">关于软件</string>
+    <string name="mcp_settings">MCP 服务</string>
+    <string name="mcp_enable">开启 MCP 服务</string>
+    <string name="mcp_enable_desc">允许 AI 通过局域网 HTTP 修改兽牌和文件</string>
+    <string name="mcp_status_running">服务运行中</string>
+    <string name="mcp_status_stopped">服务未启动</string>
+    <string name="mcp_url">连接地址</string>
+    <string name="mcp_token">访问令牌</string>
+    <string name="mcp_port">端口</string>
+    <string name="mcp_apply_port">应用端口</string>
+    <string name="mcp_copy">复制</string>
+    <string name="mcp_regenerate">重新生成</string>
+    <string name="mcp_hint">在 AI 的 MCP 客户端里添加 HTTP 服务：URL 填上面的地址，请求头加「Authorization: Bearer 令牌」。手机和电脑要在同一局域网，且本应用保持打开。</string>
+    <string name="mcp_tools_hint">可用能力：列出/新建/重命名/删除兽牌，修改图标，列出/读取/写入/删除/重命名文件，切换当前兽牌，查看浏览器内核信息，网络连通检测。</string>
+    <string name="mcp_warning">注意：同一局域网内知道令牌的程序都能修改这些数据。</string>
+    <string name="mcp_copied">已复制</string>
+    <string name="mcp_start_failed">启动失败：%s</string>
+    <string name="open_source_license">开源许可</string>
+    <string name="browser_info">浏览器内核信息</string>
+    <string name="browser_current">当前内核</string>
+    <string name="browser_info_desc">兽牌页面由系统内置 WebView 渲染。内核低于 Chromium 100 时，部分网页可能显示异常，请到应用商店更新「Android System WebView」。</string>
+    <string name="browser_provider">内核提供方</string>
+    <string name="browser_version">内核版本</string>
+    <string name="browser_chromium">Chromium 版本</string>
+    <string name="browser_ua">User-Agent</string>
+    <string name="browser_sdk">系统 SDK</string>
+    <string name="browser_unknown">未知</string>
+    <string name="webview_old_hint">浏览器内核较旧（Chromium %s），页面可能显示异常，建议在应用商店更新 Android System WebView</string>
+    <string name="browser_outdated_hint">内核版本偏旧（Chromium %1$d，推荐 %2$d 及以上），部分网页可能显示异常，建议更新 Android System WebView</string>
+
+    <string name="keep_screen_on">常亮显示</string>
+    <string name="keep_screen_on_desc">展示网页时屏幕保持常亮，不自动熄灭</string>
+    <string name="flip_display">翻转页面</string>
+    <string name="flip_display_desc">展示时把网页旋转 180°，适合倒置摆放</string>
+    <string name="show_battery">显示电量</string>
+    <string name="show_battery_desc">全屏展示时顶部显示当前电量</string>
+    <string name="anti_burn_in">防烧屏</string>
+    <string name="anti_burn_in_desc">每隔 5 分钟轻微移动画面，防止 OLED 残影</string>
+    <string name="long_press_copy">长按复制</string>
+    <string name="long_press_copy_desc">展示时允许长按选中网页文字进行复制</string>
+
+    <string name="dark_mode">深色模式</string>
+    <string name="follow_system">跟随系统</string>
+    <string name="light_mode">浅色模式</string>
+    <string name="dark_mode_label">深色模式</string>
+    <string name="theme_color">主题色彩</string>
+    <string name="monet_color">莫奈取色</string>
+    <string name="color_red">红色</string>
+    <string name="color_orange">橙色</string>
+    <string name="color_yellow">黄色</string>
+    <string name="color_green">绿色</string>
+    <string name="color_teal">青色</string>
+    <string name="color_blue">蓝色</string>
+    <string name="color_purple">紫色</string>
+    <string name="color_pink">粉色</string>
+
+    <string name="local_backup">本地备份</string>
+    <string name="local_backup_desc">把所有网页兽牌和设置打包成 ZIP 文件导出，也可以从备份 ZIP 恢复。</string>
+    <string name="export_config">导出备份</string>
+    <string name="import_config">导入备份</string>
+    <string name="confirm_override_data">此操作会覆盖当前所有网页兽牌和设置，确定继续吗？</string>
+    <string name="export_success">导出成功</string>
+    <string name="export_failed">导出失败：%s</string>
+    <string name="backup_import_success">导入成功</string>
+    <string name="backup_import_failed">导入失败：%s</string>
+    <string name="backup_size">要备份的数据大小</string>
+    <string name="webdav_backup">WebDAV 备份</string>
+    <string name="webdav_backup_desc">配置 WebDAV 服务器地址，将备份上传到服务器或从服务器恢复。</string>
+    <string name="server_address">服务器地址</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="test">测试</string>
+    <string name="backup">备份</string>
+    <string name="restore">恢复</string>
+    <string name="save_config">保存配置</string>
+    <string name="config_webdav_first">请先配置 WebDAV 服务器</string>
+    <string name="fill_server_address">请先填写服务器地址</string>
+    <string name="webdav_config_saved">WebDAV 配置已保存</string>
+    <string name="connection_success">连接成功</string>
+    <string name="backup_success">备份成功</string>
+    <string name="restore_success">恢复成功</string>
+    <string name="err_auth_fail">认证失败，请检查用户名和密码</string>
+    <string name="err_no_permission">无权限访问 (403)，请检查服务器地址是否包含用户名路径</string>
+    <string name="err_connection_failed">连接失败: %s</string>
+    <string name="err_network_error">连接失败，请检查网络</string>
+    <string name="err_upload_auth_fail">上传认证失败，请检查用户名和密码</string>
+    <string name="err_upload_no_permission">上传无权限 (403)</string>
+    <string name="err_upload_failed">上传失败: %s</string>
+    <string name="err_upload_failed_simple">上传失败</string>
+    <string name="err_redirect_no_location">服务器重定向但未提供 Location 头</string>
+    <string name="err_backup_not_found">服务器上未找到备份文件，请先上传</string>
+    <string name="err_download_no_permission">无权限下载 (403)</string>
+    <string name="err_server_response">服务器返回 %s</string>
+    <string name="err_no_config_in_zip">ZIP 文件中未找到配置文件 config.json</string>
+    <string name="err_unknown_error">未知错误</string>
+
+    <string name="app_desc">松鼠兽牌 PRO 是「松鼠兽牌」的网页版本：用 HTML、CSS、JavaScript 来制作兽牌，展示效果更自由，但需要一点点网页基础。把旧手机立起来，就是一块会动的专属兽牌。</string>
+    <string name="version">版本 %s</string>
+    <string name="original_project">原项目：松鼠兽牌</string>
+    <string name="qq_group">QQ群</string>
+    <string name="discord">Discord</string>
+    <string name="author_by">作者：%s</string>
+    <string name="license_apache2">基于 Apache License 2.0 授权使用</string>
+    <string name="lib_apache2">Apache-2.0</string>
+    <string name="lib_activity">AndroidX Activity</string>
+    <string name="lib_activity_desc">Compose 页面与 Activity Result API</string>
+    <string name="lib_activity_author">Google</string>
+    <string name="lib_lifecycle">AndroidX Lifecycle</string>
+    <string name="lib_lifecycle_desc">生命周期感知组件</string>
+    <string name="lib_lifecycle_author">Google</string>
+    <string name="lib_core">AndroidX Core KTX</string>
+    <string name="lib_core_desc">Android 核心 Kotlin 扩展</string>
+    <string name="lib_core_author">Google</string>
+    <string name="lib_splashscreen">AndroidX Core SplashScreen</string>
+    <string name="lib_splashscreen_desc">系统启动画面兼容库</string>
+    <string name="lib_splashscreen_author">Google</string>
+    <string name="lib_material">Material Components for Android</string>
+    <string name="lib_material_desc">Material Design 组件库</string>
+    <string name="lib_material_author">Google</string>
+    <string name="lib_webview">Android WebView</string>
+    <string name="lib_webview_desc">网页渲染与展示</string>
+    <string name="lib_webview_author">Google</string>
+    <string name="lib_compose">Jetpack Compose</string>
+    <string name="lib_compose_desc">Android 现代 UI 工具包</string>
+    <string name="lib_compose_author">JetBrains</string>
+    <string name="lib_kotlin">Kotlin</string>
+    <string name="lib_kotlin_desc">Kotlin 编程语言及标准库</string>
+    <string name="lib_kotlin_author">JetBrains</string>
+    <string name="lib_documentfile">AndroidX DocumentFile</string>
+    <string name="lib_documentfile_desc">文件夹导入与文件访问</string>
+    <string name="lib_documentfile_author">Google</string>
+
+    <!-- 教程 -->
+    <string name="tut_import_title">导入网页兽牌</string>
+    <string name="tut_import_desc">在「文件」页点击「导入网页兽牌」，可以选择：\n• 单个 HTML 文件 — 只有一页，资源用网络地址引用\n• ZIP 压缩包 — 推荐，包含图片/CSS/JS 的完整网页\n• 网页文件夹 — 直接选择整站文件夹\n\n每个兽牌都会变成一个文件夹，入口文件必须是 index.html。</string>
+    <string name="tut_edit_title">编辑网页</string>
+    <string name="tut_edit_desc">在「文件」页点开兽牌文件夹，可以看到里面的所有文件。点击 .html / .css / .js / .txt 等文本文件即可进入简易编辑器，修改后点右上角「保存」。</string>
+    <string name="tut_play_title">开始展示</string>
+    <string name="tut_play_desc">在主页选中兽牌，点击底部的悬浮「开始展示」按钮进入全屏。网页会铺满屏幕，系统栏自动隐藏，屏幕按设置保持常亮。</string>
+    <string name="tut_exit_title">退出展示</string>
+    <string name="tut_exit_desc">在全屏展示时按手机的返回键即可退出。展示期间顶部可以显示电量，开启防烧屏后画面会轻微移动。</string>
+    <string name="tut_backup_title">备份数据</string>
+    <string name="tut_home_title">主页管理兽牌</string>
+    <string name="tut_home_desc">主页是所有兽牌的卡片列表：
+• 点卡片切换选中（描边高亮），底部「开始展示」只展示选中的那个
+• 点卡片右上角 ⋮ 菜单：重命名、修改图标、上移/下移排序、删除
+• 删除会把该兽牌的整个文件夹一并清除，不可恢复</string>
+    <string name="tut_flip_title">翻转显示</string>
+    <string name="tut_flip_desc">手机竖着挂进兽牌壳时画面是倒的？开「设置 → 基本设置 → 翻转显示」即可把画面旋转 180°。翻转后触摸方向会自动跟着翻转，点按、滑动都和正常方向一致，无需手动适应。</string>
+    <string name="tut_mcp_title">MCP 服务（AI 管理）</string>
+    <string name="tut_mcp_desc">在「设置 → MCP 服务」开启服务后，可以在电脑上的 AI 客户端里添加 HTTP 服务（地址和令牌都在该页显示），让 AI 直接新建/编辑/删除兽牌、读写文件、切换当前兽牌，还能查询浏览器内核信息和检测网络连通性（net_ping）。注意：AI 编辑中的兽牌会短暂锁定，不能同时打开展示或文件夹。</string>
+    <string name="tut_browser_title">浏览器内核要求</string>
+    <string name="tut_browser_desc">兽牌页面由系统 WebView 渲染，内核低于 Chromium 100 时部分网页会显示异常。「设置 → 浏览器内核信息」可以查看当前内核版本，过旧时到应用商店更新「Android System WebView」即可。</string>
+    <string name="tut_faq_title">常见问题</string>
+    <string name="tut_faq_desc">• 页面滑动没反应/方向不对 → 检查「翻转显示」开关状态是否和页面适配一致
+• 单屏页面无法滑动 → 这是滚动锁定在防止画面被拖动，带手势的兽牌页会自动处理
+• 视频不自动播放 → 兽牌页的 video 标签需要带 muted 和 playsinline 属性
+• 数据线拔掉后想改兽牌 → 手机和电脑连同一 Wi-Fi，用 MCP 服务远程写入</string>
+    <string name="tut_backup_desc">「设置 → 数据备份」可以把所有兽牌文件夹和设置打包成 ZIP，换手机或重装前建议先导出一份。</string>
+    <string name="jump_failed">跳转失败: %s</string>
+</resources>
